@@ -52,7 +52,7 @@ jobs:
           npx gramax-cli build
           --source ./ba_sa_materials
           --destination ./build
-          --custom-css ./.workspace/assets/custom.css
+          --custom-css ./.workspace/assets/style.css
           --base-url "${{ steps.pages.outputs.base_url }}"
 
       - name: Upload Pages artifact
