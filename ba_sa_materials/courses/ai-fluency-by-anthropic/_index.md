@@ -1,11 +1,9 @@
 ---
-title: Introduction
+title: AI Fluency (by Anthropic)
 order: 1
-properties:
-  - id: lxKb5
-    value:
-      - You will learn how to work fluently with AI.
 ---
+
+[view:hierarchy=none::::List]
 
 Source: <https://anthropic.skilljar.com/ai-fluency-framework-foundations>
 

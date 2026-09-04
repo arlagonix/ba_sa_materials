@@ -5,7 +5,8 @@ name: Deploy Gramax to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
+
   workflow_dispatch:
 
 permissions:
@@ -44,6 +45,7 @@ jobs:
           npx gramax-cli build
           --source ./ba_sa_materials
           --destination ./build
+          --custom-css ./custom.css
           --base-url "${{ steps.pages.outputs.base_url }}"
 
       - name: Upload Pages artifact
